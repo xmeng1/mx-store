@@ -73,7 +73,8 @@
  * Zone JS is required by default for Angular itself.
  */
 import 'zone.js/dist/zone';  // Included with Angular CLI.
-
+// see https://github.com/stackblitz/core/issues/758#issuecomment-436773474
+import 'core-js/es7/reflect';
 
 /***************************************************************************************************
  * APPLICATION IMPORTS
